@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/isim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ad Soyad: "
+        android:textColorHint="#ffffff"
+        />
+
+    <EditText
+        android:id="@+id/yas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yaş"
+        android:textColorHint="#ffffff"
+        />
+
+    <EditText
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefon: "
+
+        android:inputType="textUri"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/nabiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nabız:  "
+        android:textColorHint="#ffffff"
+        />
+
+
+
+    <Button
+        android:id="@+id/buttonEkle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS Gönder" />
+</LinearLayout>
